@@ -32,10 +32,18 @@ Eğer beyaz top algılanırsa, vurulduğu zamanı ve durduğu zamanı, hareketin
 detect_billiard_balls fonksiyonundaki min_area ve max_area değişkenlerini ayarlayarak gürültüyü filtreleyebilir ve farklı boyutlardaki bilardo toplarını doğru bir şekilde algılayabilirsiniz.
 Kırmızı topları algılamak için renk aralıklarını (lower_red1, upper_red1, lower_red2, upper_red2) değiştirebilirsiniz.
 calculate_speed fonksiyonundaki frame_rate parametresini değiştirerek hız hesaplamasını videonuzun kare hızına göre ayarlayabilirsiniz.
+
 ### Kırmızı topun hareketinin izlemesi
+
 <img width="643" alt="Ekran Resmi 2024-04-24 13 42 17" src="https://github.com/sumeyyerginoz/Billiard_ball_detection_and_tracking/assets/112480236/38583af7-4f60-4127-b25e-e43c02d44463">
 <img width="649" alt="Ekran Resmi 2024-04-24 13 41 51" src="https://github.com/sumeyyerginoz/Billiard_ball_detection_and_tracking/assets/112480236/d05205f2-5c0a-4272-8cda-069b75b36a2b">
 <img width="645" alt="Ekran Resmi 2024-04-24 13 41 27" src="https://github.com/sumeyyerginoz/Billiard_ball_detection_and_tracking/assets/112480236/5a133c8f-83b0-4d77-aef5-7ba3903d19e7">
 <br>
+
+### Beyaz topun vurulma anından hareketinin bitme zamanına kadar geçen zaman
+<br>
+
 <img width="409" alt="Ekran Resmi 2024-04-24 13 44 23" src="https://github.com/sumeyyerginoz/Billiard_ball_detection_and_tracking/assets/112480236/0cbfe9b4-7dbd-49ef-a9fb-65c4eb5153db">
+### Kırmızı topun anlık olarak (piksel/s) hızı
+<br>
 <img width="447" alt="Ekran Resmi 2024-04-24 13 44 47" src="https://github.com/sumeyyerginoz/Billiard_ball_detection_and_tracking/assets/112480236/50c23751-eb5d-47f2-ac05-eb4beed07ee0">
